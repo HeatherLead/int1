@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Landing from "./components/Landing";
+import Founders from "./components/Founders";
+import Third from "./components/Third";
+import Timer from "./components/Timer";
+import Cta from "./components/Cta";
+import Form from "./components/Form";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Landing />
+      <Founders />
+      <Third />
+      <Timer />
+      <Cta />
+      <Form />
+    </>
   );
 }
 
